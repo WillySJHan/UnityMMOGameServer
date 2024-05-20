@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{0a1e89ab-07e1-4729-bfea-6e6511c6da4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{76adb66c-e3cc-4861-bd6e-e2ef0f93011a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{2919aee9-8246-4ffb-9353-5ae13ef2cb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{c2c7fc5b-bb5c-4c34-8596-9c681ec2f560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents">
+      <UniqueIdentifier>{0abefb6b-7f49-499e-8907-9ae5336a8d2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Object">
+      <UniqueIdentifier>{fc334bc7-3f1b-44af-87ec-b9375f6f25be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol\Proto">
+      <UniqueIdentifier>{7611aff0-c4e8-4d1e-a6bb-ffe065781c22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Room">
+      <UniqueIdentifier>{24ae94e1-a113-4d29-a0b3-2b96022bbb72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameData">
+      <UniqueIdentifier>{a221f34c-843f-4cf6-8ac7-d91b12ee427a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{071006c3-70e3-4e44-9a31-5948cf54f5be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contents\Item">
+      <UniqueIdentifier>{31d178d2-dda2-4592-a4ba-64c1aad0fdad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainServer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSessionManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientSession.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientProtocolManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Struct.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.pb.cc">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Contents\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Contents\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>Contents\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Contents\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigManager.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="DBTransaction.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Contents\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Contents\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Area.cpp">
+      <Filter>Contents\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualField.cpp">
+      <Filter>Contents\Room</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSessionManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientSession.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientProtocolManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.pb.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Contents\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Contents\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>Contents\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Contents\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigManager.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="DBTransaction.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Contents\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Contents\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Area.h">
+      <Filter>Contents\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualField.h">
+      <Filter>Contents\Room</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\protoc\bin\Enum.proto">
+      <Filter>Protocol\Proto</Filter>
+    </None>
+    <None Include="..\Resource\protoc\bin\Protocol.proto">
+      <Filter>Protocol\Proto</Filter>
+    </None>
+    <None Include="..\Resource\protoc\bin\Struct.proto">
+      <Filter>Protocol\Proto</Filter>
+    </None>
+    <None Include="..\Resource\protoc\bin\ProtocolMaker.bat">
+      <Filter>Protocol\Proto</Filter>
+    </None>
+  </ItemGroup>
+</Project>

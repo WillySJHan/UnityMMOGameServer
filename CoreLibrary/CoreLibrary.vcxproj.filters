@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{c9db5323-df1a-4f12-9cfe-20e3f101fc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{3d93509e-40b5-4799-9930-6234be125712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{741a4b0c-efe3-45f1-ace7-5085b29eed36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{7373453c-de5f-4c4b-a5cb-36eaee9c8cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Task">
+      <UniqueIdentifier>{8ee798f3-ca9d-4815-b765-d72b55777579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{37ec7eae-f3bc-414e-9b85-75ac9bf794ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TLSVariable.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadManager.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketAddress.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPBase.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPEvent.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Service.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvBuffer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SendBuffer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskQueue.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskQueueManager.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreLibraryPch.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobaVariable.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Macros.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="LockBasedQueue.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskScheduler.h">
+      <Filter>Task</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConnector.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="DBBind.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CoreLibrary.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TLSVariable.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadManager.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketAddress.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPBase.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPEvent.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Listener.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Service.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvBuffer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="SendBuffer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskQueue.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskQueueManager.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreLibraryPch.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobaVariable.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="LockBasedQueue.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskScheduler.cpp">
+      <Filter>Task</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConnector.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="DBBind.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
