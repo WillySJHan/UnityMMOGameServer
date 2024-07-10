@@ -1,4 +1,4 @@
-# UnityMMOGame
+# UnityMMOGameServer
 C++20, IOCP, Protobuf, nlohmann(json), SQL-Server
 
 시현 영상 : https://www.youtube.com/watch?v=qsoEZy7cWtU
